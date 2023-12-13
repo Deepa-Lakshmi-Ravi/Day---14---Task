@@ -1,0 +1,20 @@
+table tr,
+th,
+td {
+  border: 1px solid;
+  padding: 8px;
+  border-collapse: collapse;
+  text-align: center;
+}
+h1{
+    text-align: center;
+}
+#form {
+  border: 2px solid;
+  padding: 20px;
+}
+#submit{
+    text-align: center;
+    margin-left: 70px;
+    padding: 5px;
+}

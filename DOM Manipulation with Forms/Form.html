@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css" />
+    <script src="Form.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title">DOM Manipulation with Forms</h1>
+    <p id="description" hidden>Form Creation</p>
+    <form id="form">
+      <label for="first-name">First Name:</label>
+      <input
+        id="first-name"
+        type="text"
+        name="first-name"
+        placeholder="Eg:John"
+        required
+      /><br /><br />
+      <label for="last-name">Last Name:</label>
+
+      <input
+        type="text"
+        id="last-name"
+        name="last-name"
+        placeholder="Eg:Doe"
+        required
+      /><br /><br />
+      <label for="address">Address:</label>
+
+      <input type="textarea" id="address" name="address" required /><br /><br />
+      <label for="pincode">Pincode:</label>
+
+      <input type="text" id="pincode" name="pincode" required /><br /><br />
+      <label for="gender">Gender:</label>
+
+      <input type="radio" id="gender" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="gender" name="gender" value="female" required />
+      <label for="female">Female</label><br /><br />
+
+      <label for="food choice">Choice of Food(Select Atleast 2):</label>
+      <input
+        type="checkbox"
+        id="food choice"
+        name="food choice"
+        value="Pizza"
+      />
+      <label for="pizza">Pizza</label>
+      <input
+        type="checkbox"
+        id="food choice"
+        name="food choice"
+        value="Burger"
+      />
+      <label for="burger">Burger</label>
+      <input
+        type="checkbox"
+        id="food choice"
+        name="food choice"
+        value="Pasta"
+      />
+      <label for="pasta">Pasta</label>
+      <input
+        type="checkbox"
+        id="food choice"
+        name="food choice"
+        value="Briyani"
+      />
+      <label for="briyani">Briyani</label>
+      <input
+        type="checkbox"
+        id="food choice"
+        name="food choice"
+        value="Noodles"
+      />
+      <label for="noodles">Noodles</label><br /><br />
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required /><br /><br />
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required /><br /><br />
+
+      <input type="submit" id="submit" value="Submit" />
+    </form>
+    <h2>Data Table</h2>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
